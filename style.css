@@ -126,6 +126,7 @@ button{
     border: none;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 10px;
 
 }
 .f{
@@ -182,3 +183,19 @@ icon e:hover{
 }
 
 
+.f-right{
+    display: flex;
+    
+}
+
+.f-right z{
+  margin-left: 100px;
+.f-right y{
+    margin-left: 50px;
+}
+.f-right x{
+    margin-left: 20px;
+}
+.f-right w{
+    margin-left: 20px;
+}

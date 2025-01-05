@@ -135,4 +135,50 @@ button{
 .f-left {
     margin-left: 100px;
 }
+icon{
+    
+    justify-content: space-between;
+    height: 50px;
+    width: 50px;
+}
+icon b{
+    margin-right:15px;
+    background-color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+icon c{
+    margin-right:15px;
+    background-color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+icon d{
+    margin-right:15px;
+    background-color:#fff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+icon e{
+    margin-right:15px;
+    background-color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+icon b:hover{
+    background-color: brown;
+}
+icon c :hover{
+    background-color: brown;
+}
+icon d:hover{
+    background-color: brown;
+}
+icon e:hover{
+    background-color: brown;
+}
+
 

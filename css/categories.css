@@ -126,6 +126,11 @@ body{
 
 }
 
+.D2 rating{
+    display: flex;
+    gap:50px;
+}
+
 
 .D2 div{
     width: 300px;
@@ -140,4 +145,32 @@ body{
     height: 70px;
     width: 70px;
     border-radius: 50%;
+}
+
+.D2 div c{
+    display: flex;
+}
+
+.D2 div .a{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.D2 div b{
+    display: flex;
+}
+
+.D2 div i{
+    color: gold;
+    margin-left: 32px;
+    margin-top: 20px;
+
+}
+
+.D2 div p{
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

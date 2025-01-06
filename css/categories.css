@@ -174,3 +174,104 @@ body{
     margin-top: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.D2{
+    margin-top: 35px;
+
+}
+
+.D2 h1{
+    margin-left: 10px;
+    color: black;
+    font-size: 40px;
+    font-family: 'Kanit';
+}
+
+.D2 rating{
+    display: flex;
+    gap:50px
+}
+
+
+.D2 div{
+    width: 350px;
+    height: 300px;
+    background-color:whitesmoke;
+    margin-left: 30px;
+    
+    
+}
+
+.D2 div img{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.D2 div c{
+    display: flex;
+}
+
+.D2 div .a{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.D2 div b{
+    display: flex;
+}
+
+.D2 div i{
+    color: gold;
+    margin-left: 32px;
+    margin-top: 20px;
+
+}
+
+.D2 div p{
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.D3{
+    margin-top: 30px;
+
+}
+
+.D3 v{
+    display: flex;
+    gap:30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.D3 h1{
+    font-family:cursive;
+    margin-left: 20px;
+}
+
+.D3 div{
+    height: 650px;
+    width: 600px;
+    background-color: wheat;
+}
+
+.D3 div img{
+  margin-top: 20px;
+  margin-left: 30px;
+   height: 500px;
+    width: 550px;
+}
+
+.D3 div h2{
+    color: black;
+    font-size: 40px;
+    margin-left: 200px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+
+}

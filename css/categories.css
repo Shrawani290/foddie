@@ -259,7 +259,7 @@ body{
 }
 
 .D3 div{
-    height: 450px;
+    height: 470px;
     width: 450px;
     background-color: wheat;
     border-radius: 10px;
@@ -276,12 +276,12 @@ body{
     border-radius: 10px;
 }
 
-.D3 div h2{
+.D3 v div a{
     color: black;
     font-size: 35px;
     margin-left: 150px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-
+   
 }
 
 .D4{
@@ -317,9 +317,10 @@ body{
     display: flex;
 }
 
-.D4 div p{
+.D4 div a{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     cursor: pointer;
+    margin-top: 20px;
     
 }
 
@@ -335,7 +336,7 @@ body{
     display :flex;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
-    margin-left: 250px;
+    margin-left: 270px;
     font-weight: 800;
 }
 
@@ -343,7 +344,7 @@ body{
     display :flex;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
-    margin-left: 270px;
+    margin-left: 260px;
     font-weight: 800;
 }
 
@@ -351,7 +352,7 @@ body{
     display :flex;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
-    margin-left: 300px;
+    margin-left: 280px;
     font-weight: 800;
 }
 
@@ -383,6 +384,8 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
    cursor: pointer;
     display: flex;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
  
 .D5 text #A:hover{
@@ -413,8 +416,9 @@ body{
     font-weight: 800;
     font-size: 30px;
 }
-.D5 M{
-    margin-top: 200px;
+.D5 div-2{
+    margin-top: 500px;
+    
 }
 
 
@@ -430,6 +434,8 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     cursor: pointer;
     display: flex;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .D5 text-2  #X:hover{
@@ -509,7 +515,7 @@ body{
     text-decoration: underline;
 }
 .D6 text  #N{
-    margin-left: 200px;
+    margin-left: 260px;
     font-weight: 800;
     font-size: 30px;
 }
@@ -518,7 +524,7 @@ body{
     text-decoration: underline;
 }
 .D6 text  #O{
-    margin-left: 270px;
+    margin-left: 230px;
     font-weight: 800;
     font-size: 30px;
 }
@@ -527,7 +533,7 @@ body{
     text-decoration: underline;
 }
 .D6 text  #P{
-    margin-left: 270px;
+    margin-left: 230px;
     font-weight: 800;
     font-size: 30px;
 }
@@ -631,8 +637,9 @@ footer text {
     display: flex;
     color: white;
     gap:20px;
-    margin-left: 600px;
+    margin-left: 550px;
     margin-top: 20px;
+    
 }
 
 footer .copyright {

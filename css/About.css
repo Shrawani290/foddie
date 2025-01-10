@@ -220,3 +220,62 @@ body{
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
  }
+
+ .A6 {
+    background-color:aqua;
+    margin-top: 50px;
+ }
+
+.A6 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 52px;
+    margin-left: 480px;
+    color: black;
+ }
+
+ .A6 span{
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+ }
+
+ .A6 p{
+    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .A7 {
+    background-color:aqua;
+    margin-top: 50px;
+ }
+
+ .A7 h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-left: 300px;
+    color: black;
+ }
+
+ .A7 img{
+    height: 70px;
+    width: 70px;
+    margin-left: 50px;
+    border-radius: 20px;
+ }
+ .A7 icons{
+    display: flex;
+    color: gold;
+    margin-left: 50px;
+ }
+
+ .A7 h2{
+    margin-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ 
+ .A7 p{
+    margin-left: 100px;
+    font-size: 20px;
+    font-family:cursive;
+ }

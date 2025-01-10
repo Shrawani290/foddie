@@ -126,11 +126,79 @@ body{
     
  }
 
+ .A1 #text{
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 900px;
+    height: 130px;
+   
+ }
+
  .A1 t{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 20px;
     text-align: center;
     justify-content: center;
+ }
+
+ .A2{
+    background-color:aqua;
+    margin-top: 50px;
+ }
+ .A2 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+    margin-left: 500px;
+    color: black;
+ }
+
+ .A2 p{
+    margin-left: 100px;
+    margin-right: 90px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+ .A3{
+    background-color:aqua;
+    margin-top: 50px;
+ }
+ .A3 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+    margin-left: 500px;
+    color: black;
+ }
+
+ .A3 p{
+    margin-left: 100px;
+    margin-right: 90px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .A4 {
+    background-color:aqua;
+    margin-top: 50px;
+ }
+
+.A4 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+    margin-left: 500px;
+    color: black;
+ }
+
+ .A4 span{
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+ }
+
+ .A4 p{
+    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
  }

@@ -284,6 +284,16 @@ body{
    
 }
 
+.D3 button{
+    margin-left: 550px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 20px;
+    background-color: rgb(114, 204, 10);
+}
+
 .D4{
     margin-top: 80px;
     background-color: whitesmoke;
@@ -359,6 +369,17 @@ body{
 .D4 para p:hover{
     text-decoration: underline;
 }
+
+.D4 button{
+    margin-left: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 20px;
+    background-color: rgb(114, 204, 10);
+}
+
 
 .D5{
     background-color: wheat;
@@ -466,6 +487,18 @@ body{
     font-size: 30px;
 }
 
+.D5 button{
+    margin-left: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 20px;
+    background-color: rgb(114, 204, 10);
+}
+
+
+
 .D6{
     margin-top: 10px;
     background-color: whitesmoke;
@@ -537,6 +570,18 @@ body{
     font-weight: 800;
     font-size: 30px;
 }
+
+.D6 button{
+    margin-left: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 20px;
+    background-color: rgb(114, 204, 10);
+}
+
+
 
 footer{
     margin-top: 20px;

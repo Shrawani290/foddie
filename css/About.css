@@ -8,7 +8,7 @@ body{
  main{
    margin: 50px 20px 20px 50px;
    background-color: #fff;
-  
+   margin-bottom: 30px;
    border-radius: 15px;
    
  }
@@ -98,4 +98,39 @@ body{
  .cart:hover{
      background-color: black;
     
+ }
+
+ .A1{
+  background-color:aqua;
+  margin-top: 50px;
+ }
+
+ .A1 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+    color: black;
+    margin-left: 500px;
+ }
+
+ .A1 h3{
+    margin-left: 500px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
+
+ .A1 P{
+    margin-left: 470px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
+
+ .A1 t{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    justify-content: center;
  }

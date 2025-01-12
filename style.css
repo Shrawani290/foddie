@@ -140,8 +140,8 @@ main{
 .x1 left {
     margin-left:0;
 }
-.x1.d2 img{
-   height: ;
+.d2 img{
+  margin-left: 100px;
 }
 span{
     font-family: kanit;

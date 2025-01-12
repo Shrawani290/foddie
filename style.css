@@ -119,6 +119,8 @@ text{
     
 }
 
+
+
 .para{
    
     margin-left: 30px;
@@ -180,17 +182,18 @@ text {
 
 }
 .x2 .x2-left img{
-    margin-bottom: 20px;
+    margin-top: -100px;
+    margin-bottom: 100px;
     margin-left: 50px;
     height:500px;
     width: 500px;
 }
 
 .x2{
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
   
-    height: 1000px;
+    height: 500px;
 }
 .x2-right p{
     margin-left: 200px;
@@ -217,6 +220,127 @@ text {
     background-color: black;
     color: #fff;
 }
+
+
+
+
+.D2{
+    margin-top: 30px;
+
+}
+
+.D2 rating{
+    display: flex;
+    gap:50px;
+}
+
+
+.D2 div{
+    width: 300px;
+    height: 350px;
+    background-color:black;
+    margin-left: 20px;
+}
+
+.D2 div img{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.D2 div c{
+    display: flex;
+}
+
+.D2 div .a{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.D2 div b{
+    display: flex;
+}
+
+.D2 div i{
+    color: gold;
+    margin-left: 32px;
+    margin-top: 20px;
+
+}
+
+.D2 div p{
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.D2{
+    margin-top: 5px;
+
+}
+
+.D2 h1{
+    margin-left: 10px;
+    color: black;
+    font-size: 40px;
+    font-family: 'Kanit';
+}
+
+.D2 rating{
+    display: flex;
+    gap:50px
+}
+
+
+.D2 div{
+    width: 350px;
+    height: 300px;
+    background-color:whitesmoke;
+    margin-left: 30px;
+    
+    
+}
+
+.D2 div img{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.D2 div c{
+    display: flex;
+}
+
+.D2 div .a{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.D2 div b{
+    display: flex;
+}
+
+.D2 div i{
+    color: gold;
+    margin-left: 32px;
+    margin-top: 20px;
+
+}
+
+.D2 div p{
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .f{
     display: flex;
     background-color: rgb(243, 241, 239);

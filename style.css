@@ -169,8 +169,8 @@ text {
 
 }
 .x2 .x2-left img{
-
-
+    margin-bottom: 20px;
+    margin-left: 50px;
     height:500px;
     width: 500px;
 }
@@ -182,17 +182,17 @@ text {
     height: 1000px;
 }
 .x2-right p{
-    margin-left: 300px;
+    margin-left: 200px;
 }
 
 .x2-right h2{
-    margin-left: 300px;
+    margin-left: 200px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 }
 
 .abc{
-    margin-left:300px;
+    margin-left:200px;
     background-color: brown;
     padding: 10px 10px;
     border-radius: 5px;

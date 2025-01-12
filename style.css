@@ -415,7 +415,11 @@ icon e:hover{
     margin-left: 100px;
 }
 .f-right w{
-    margin-left: 100px;
+    margin-left: 10px;
+}
+
+.f-right w ul li{
+    margin-right: 10px;
 }
 
 footer .copyright {

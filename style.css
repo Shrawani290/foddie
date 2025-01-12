@@ -41,11 +41,11 @@ main{
     margin-top: 60px;
  }
   
-  header p:hover{
+  /* header p:hover{
     border:1px solid black;
     
     border-radius: 5px; 
- }
+ } */
  .search-bar {
     display: flex;
     align-items: center;
@@ -101,13 +101,25 @@ main{
    
 }
 .d1{
-    margin-left: 170px;
+     margin-left: 170px; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 100px;
     letter-spacing: 1px ;
 
 }
+.d1 para{
+    margin-left: 10px;
+}
+.x1{
+    display: flex;
+}
 
+.x1 left {
+    margin-left:0;
+}
+.x1.d2 img{
+   height: ;
+}
 span{
     font-family: kanit;
     font-size: 50px;

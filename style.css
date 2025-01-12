@@ -107,9 +107,11 @@ main{
     letter-spacing: 1px ;
 
 }
-.d1 para{
-    margin-left: 10px;
-}
+.d1 para {
+    margin-left: 20px;
+} 
+    
+
 .x1{
     display: flex;
 }

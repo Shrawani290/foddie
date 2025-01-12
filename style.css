@@ -167,23 +167,27 @@ text {
     margin-left: 100px;
 
 }
-
+.x2-left{
+    height: 400px;
+    width: 400px;
+}
 
 .x2{
     margin-top: 200px;
+    display: flex;
 }
 .x2-right p{
-    margin-left: 800px;
+    margin-left: 500px;
 }
 
 .x2-right h2{
-    margin-left: 800px;
+    margin-left: 500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 }
 
 .abc{
-    margin-left: 800px;
+    margin-left: 500px;
     background-color: brown;
     padding: 10px 10px;
     border-radius: 5px;

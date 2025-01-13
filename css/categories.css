@@ -100,7 +100,7 @@ body{
     
  }
 
- .D1 {
+ /* .D1 {
     position: relative;
 }
 
@@ -120,8 +120,68 @@ body{
     font-family: 'Kanit', sans-serif;
     text-align: center;
     text-shadow: 5px 5px 10px  rgba(0, 0, 0, 1);
+} */
+.D1{
+    
+    margin-top: 50px;
+    height:200px;
 }
 
+.D1 row{
+    display: flex;
+}
+.D1 .row1 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 35px;
+    gap: 70px;
+}
+
+.D1 .text{
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.D1 .text #A{
+    font-size: 15px;
+    margin-left: 50px
+}
+.D1 .text #B{
+    font-size: 15px;
+    margin-left: 110px
+}
+.D1 .text #C{
+    font-size: 15px;
+    margin-left: 90px
+}
+.D1 .text #D{
+    font-size: 15px;
+    margin-left: 100px
+}
+.D1 .text #E{
+    font-size: 15px;
+    margin-left: 100px
+}
+.D1 .text #F{
+    font-size: 15px;
+    margin-left: 100px
+}
+.D1 .text #I{
+    font-size: 15px;
+    margin-left: 100px
+}
+.D1 .text #G{
+    font-size: 15px;
+    margin-left: 100px
+}
+.D1 .text #H{
+    font-size: 15px;
+    margin-left: 100px
+}
+.D1 .text #I{
+    font-size: 15px;
+    margin-left: 100px
+}
 .D2{
     margin-top: 30px;
 
@@ -184,7 +244,7 @@ body{
 .D2 h1{
     margin-left: 10px;
     color: black;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Kanit';
 }
 
@@ -372,7 +432,8 @@ body{
 }
 
 .D4 button{
-    margin-left: 600px;
+    margin-left: 550px;
+    margin-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 15px;
@@ -391,15 +452,19 @@ body{
     margin-top: 40px;
     margin-left: 30px;
     font-family: cursive;
-    font-size: 50px;
+    font-size: 40px;
+}
+.D5 div{
+    display: flex;
 }
 
 .D5 div img{
-    height:350px;
-    width: 350px;
+    height:150px;
+    width: 150px;
     border-radius: 30%;
-    margin-left: 45px;
+    margin-left: 35px;
     margin-right: 20px;
+    gap:50px
 }
 
 .D5 text{
@@ -416,37 +481,65 @@ body{
 
 
 .D5 text  #A{
-    margin-left: 120px;
+    margin-left: 50px;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .D5 text #B:hover{
     text-decoration: underline;
 }
 .D5 text  #B{
-    margin-left: 200px;
+    margin-left: 130px;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .D5 text #C:hover{
     text-decoration: underline;
 }
 .D5 text  #C{
-    margin-left: 270px;
+    margin-left: 110px;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 15px;
 }
-.D5 div-2{
+
+.D5 text  #X:hover{
+    text-decoration: underline;
+}
+
+.D5 text  #X{
+    margin-left: 110px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.D5 text  #Y:hover{
+    text-decoration: underline;
+}
+.D5 text  #Y{
+    margin-left: 100px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.D5 text  #Z:hover{
+    text-decoration: underline;
+}
+.D5 text  #Z{
+    margin-left: 130px;
+    font-weight: 800;
+    font-size: 15px;
+} 
+/* .D5 div-2{
     margin-top: 500px;
     
 }
 
 
 .D5 div-2 img{
-    height:350px;
-    width: 350px;
+    height:200px;
+    width: 200px;
     border-radius: 30%;
     margin-left: 45px;
     margin-right: 20px;
@@ -486,10 +579,11 @@ body{
     margin-left: 280px;
     font-weight: 800;
     font-size: 30px;
-}
+} */
 
 .D5 button{
-    margin-left: 600px;
+    margin-left: 550px;
+    margin-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 15px;
@@ -513,17 +607,18 @@ body{
 .D6 h1{
     margin-left: 30px;
     font-family: cursive;
-    font-size: 40px;
+    font-size: 50px;
   }
   
 
 .D6 div img{
  border-radius: 50%;
- height:300px;
- width:300px;
- margin-left: 10px;
+ height:200px;
+ width:200px;
+ margin-left: 30px;
  margin-right: 10px;
  margin-top: 30px;
+ gap: 50px;
 }
 
 

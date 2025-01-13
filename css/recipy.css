@@ -1,12 +1,23 @@
 body{
     margin: 0;
     padding: 0;
-
+    
+    background-color: #ffc196;
+  
 }
+
+main{
+  margin: 50px 20px 20px 50px;
+  background-color: #fff;
+ 
+  border-radius: 15px;
+  
+}
+
 
 .R1{
     width: 100%;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     height: 500px;
     
 }

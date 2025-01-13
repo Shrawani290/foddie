@@ -124,7 +124,7 @@ body{
 .D1{
     
     margin-top: 50px;
-    height:200px;
+    height:300px;
 }
 
 .D1 row{
@@ -137,10 +137,57 @@ body{
     gap: 70px;
 }
 
+.D1 .row-2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 35px;
+    gap: 70px;
+}
 .D1 .text{
     display: flex;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
+}
+.D1 .text-2{
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.D1 .text-2 #R{
+    font-size: 15px;
+    margin-left: 100px
+}
+.D1 .text-2 #S{
+    font-size: 15px;
+    margin-left: 100px
+}
+.D1 .text-2 #T{
+    font-size: 15px;
+    margin-left: 90px
+}
+.D1 .text-2 #U{
+    font-size: 15px;
+    margin-left: 70px
+}
+.D1 .text-2 #V{
+    font-size: 15px;
+    margin-left: 70px
+}
+.D1 .text-2 #W{
+    font-size: 15px;
+    margin-left: 60px
+}
+.D1 .text-2 #X{
+    font-size: 15px;
+    margin-left: 70px
+}
+.D1 .text-2 #Y{
+    font-size: 15px;
+    margin-left: 100px
+}
+.D1 .text-2 #Z{
+    font-size: 15px;
+    margin-left: 70px
 }
 .D1 .text #A{
     font-size: 15px;
@@ -184,7 +231,7 @@ body{
 }
 .D2{
     margin-top: 30px;
-
+    
 }
 
 .D2 rating{
@@ -630,7 +677,7 @@ body {
     text-decoration: underline;
 }
 .D5 text  #B{
-    margin-left: 130px;
+    margin-left: 120px;
     font-weight: 800;
     font-size: 15px;
 }
@@ -639,7 +686,7 @@ body {
     text-decoration: underline;
 }
 .D5 text  #C{
-    margin-left: 110px;
+    margin-left: 135px;
     font-weight: 800;
     font-size: 15px;
 }
@@ -658,7 +705,7 @@ body {
     text-decoration: underline;
 }
 .D5 text  #Y{
-    margin-left: 100px;
+    margin-left: 110px;
     font-weight: 800;
     font-size: 15px;
 }
@@ -667,7 +714,7 @@ body {
     text-decoration: underline;
 }
 .D5 text  #Z{
-    margin-left: 130px;
+    margin-left: 140px;
     font-weight: 800;
     font-size: 15px;
 } 
@@ -784,7 +831,7 @@ body {
     text-decoration: underline;
 }
 .D6 text  #N{
-    margin-left: 140px;
+    margin-left: 170px;
     font-weight: 800;
     font-size: 15px;
 }
@@ -802,7 +849,7 @@ body {
     text-decoration: underline;
 }
 .D6 text  #P{
-    margin-left: 130px;
+    margin-left: 140px;
     font-weight: 800;
     font-size: 15px;
 }
@@ -827,7 +874,7 @@ body {
     text-decoration: underline;
 }
 .D6 text  #S{
-    margin-left: 90px;
+    margin-left: 100px;
     font-weight: 800;
     font-size: 15px;
 }

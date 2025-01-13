@@ -25,25 +25,25 @@ main{
    color: brown;
    margin-top: 72px;
    font-family: Arial, Helvetica, sans-serif; 
+   
  }
-
+/* 
  .nav h1:hover{
   border:1px solid black;
   padding: 10px 10px 10px 10px;
   border-radius: 5px;
- }
+ } */
 
  header{
     display: flex;
     gap: 70px;
     margin-left: 150px;
     margin-top: 60px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 200px;
  }
   
- header p:hover{
+  /* header p:hover{
     border:1px solid black;
+    padding: 10px 10px 10px 10px;
     border-radius: 5px;
  }
  .search-bar {
@@ -101,8 +101,8 @@ main{
    
 }
 .d1{
-    margin-left: 110px;
-    font-family: fantasy;
+    margin-left: 170px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 100px;
     letter-spacing: 1px ;
 
@@ -118,6 +118,55 @@ main{
 
 
 
+text{
+    margin-bottom: 200px;
+}
+.d1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50px;
+    font-size: 23px;
+
+    
+}
+
+
+
+.para{
+   
+    margin-left: 30px;
+}
+
+.xyz{
+    margin-left: 200px;
+    margin-top: 20px;
+    background-color: brown;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+
+
+
+}
+.xyz:hover{
+    background-color: black;
+    color: #fff;
+    
+}
+
+
+.x1{
+    display: flex;
+}
+
+.x1 left {
+    margin-left:0;
+}
+.d2 img{
+  margin-left: 100px;
+}
 span{
     font-family: kanit;
     font-size: 50px;
@@ -142,23 +191,32 @@ text {
     margin-left: 100px;
 
 }
-
+.x2 .x2-left img{
+    margin-top: -100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    height:500px;
+    width: 500px;
+}
 
 .x2{
-    margin-top: 200px;
+    margin-top: 50px;
+    display: flex;
+  
+    height: 500px;
 }
 .x2-right p{
-    margin-left: 800px;
+    margin-left: 200px;
 }
 
 .x2-right h2{
-    margin-left: 800px;
+    margin-left: 200px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 }
 
-button{
-    margin-left: 800px;
+.abc{
+    margin-left:200px;
     background-color: brown;
     padding: 10px 10px;
     border-radius: 5px;
@@ -168,13 +226,135 @@ button{
     margin-bottom: 10px;
 
 }
-button:hover{
+.abc:hover{
     background-color: black;
     color: #fff;
 }
+
+
+
+
+.D2{
+    margin-top: 30px;
+
+}
+
+.D2 rating{
+    display: flex;
+    gap:50px;
+}
+
+
+.D2 div{
+    width: 300px;
+    height: 350px;
+    background-color:black;
+    margin-left: 20px;
+}
+
+.D2 div img{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.D2 div c{
+    display: flex;
+}
+
+.D2 div .a{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.D2 div b{
+    display: flex;
+}
+
+.D2 div i{
+    color: gold;
+    margin-left: 32px;
+    margin-top: 20px;
+
+}
+
+.D2 div p{
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.D2{
+    margin-top: 5px;
+
+}
+
+.D2 h1{
+    margin-left: 10px;
+    color: black;
+    font-size: 40px;
+    font-family: 'Kanit';
+}
+
+.D2 rating{
+    display: flex;
+    gap:50px
+}
+
+
+.D2 div{
+    width: 350px;
+    height: 300px;
+    background-color:whitesmoke;
+    margin-left: 30px;
+    
+    
+}
+
+.D2 div img{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.D2 div c{
+    display: flex;
+}
+
+.D2 div .a{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.D2 div b{
+    display: flex;
+}
+
+.D2 div i{
+    color: gold;
+    margin-left: 32px;
+    margin-top: 20px;
+
+}
+
+.D2 div p{
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .f{
     display: flex;
-    background-color: blanchedalmond;
+    background-color: rgb(243, 241, 239);
+    margin-top: 30px;
 }
 .f-left {
     margin-left: 100px;
@@ -238,14 +418,18 @@ icon e:hover{
 .f-right z{
   margin-left: 100px;
 }
-.f-right y{
+/* .f-right y{
     margin-left: 100px;
-}
+} */
 .f-right x{
     margin-left: 100px;
 }
 .f-right w{
-    margin-left: 100px;
+    margin-left: 10px;
+}
+
+.f-right w ul li{
+    margin-right: 10px;
 }
 
 footer .copyright {

@@ -48,6 +48,8 @@ main{
 .R1{
     width: 100%;
     display: flex;
+    background-color: red;
+    display: flex;
     
 }
  .R1 h3{
@@ -65,9 +67,20 @@ margin-left: 25px;
 right img{
   height: 500px;
   width: 700px;
-  margin-left: 380px;
+  /* margin-left: 380px; */
   border-radius: 10px;
 
+}
+
+.r1{
+  display: flex;
+}
+.r1 left{
+  background-color: green;
+}
+
+.r1 right{
+  background-color: blue;
 }
 
 /* .R1 r-1{

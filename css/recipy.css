@@ -104,6 +104,7 @@ button:hover{
   width: 300px;
   height: 245px;
   margin: 0 auto;
+  overflow: ;
 
 }
 .recipe .recipe_box .recipe_card .recipe_image img{

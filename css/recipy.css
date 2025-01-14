@@ -102,6 +102,7 @@ button:hover{
 
 .recipe .recipe_box .recipe_card .recipe_image{
   width: 300px;
+  height: 245px;
 
 }
 .recipe .recipe_box .recipe_card .recipe_image img{

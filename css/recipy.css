@@ -92,6 +92,15 @@ button:hover{
 
 }
 
+.recipe .recipe_box{
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+
+}
+
 .recipe .recipe_box .recipe_card{
   width: 325px;
   height: 480px;

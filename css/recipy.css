@@ -1,48 +1,175 @@
 body{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  background-color: peachpuff;
+}
+
+.r1{
+  background-color: white;
+ 
+  margin: 50px 20px 20px 50px;
+ 
+}
+.R{
+  display: flex;
+}
+.r1 left{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: ;
+}
+.r1 p{
+  font-size: 25px;
+  font-weight: 500;
+}
+.r1 p1{
+  font-weight: 1000;
+}
+right img{
+  height: 400px;
+  width: 600px;
+  background-color: blue;
+  margin-left: 120px;
+  border-radius: 10px;
+
+}
+.r1 left{
+  margin-left: 20px;
+
+ 
+}
+.r2{
+  margin-bottom: -40px;
+  padding-bottom: 100px;
+  margin-left: 50px;
+}
+.r2 input{
+  border-radius: 5px;
+  padding: 5px;
+}
+
+button{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(145, 34, 34);
+  border: none;
 
 }
 
-.R1{
-    width: 100%;
-    background-color: chartreuse;
-    height: 500px;
-    
-}
-.R1 h1{
-margin-left: 550px;
-font-size: 45px;
-}
-.R1 p{
-margin-left: 450px;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-size: 20px;
-
-}
-
-.R1 r-1{
-    display: flex;
-    gap: 7%;
-    margin-top: 50px;
-
-
-}
-.R1 r-1 a{
-  width: 350px;
-  height: 300px;
+button:hover{
   background-color: black;
-  margin-left: 30px;
+  color: white;
+  
 }
-.R1 r-1 b{
-    width: 350px;
-    height: 300px;
-    background-color: black;
-    margin-left: 30px;
-  }
-  .R1 r-1 c{
-    width: 350px;
-    height: 300px;
-    background-color: black;
-    margin-left: 30px;
-  }
+/* RECIPE */
+
+.recipe{
+   width: 100%;
+   padding: 70px 0;
+}
+
+.recipe h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.recipe h1 span{
+   color: brown;
+   margin-left: 15px;
+   font-family: mv boli;
+}
+
+.recipe h1 span::after{
+  content: '' ;
+  width: 100%;
+  height: 2px;
+  background-color: brown;
+  display: block;
+  position: relative;
+  bottom: 15px;
+
+}
+
+.recipe .recipe_box{
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+
+}
+
+.recipe .recipe_box .recipe_card{
+  width: 325px;
+  height: 480px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin-left: 20px;
+}
+
+.recipe .recipe_box .recipe_card .recipe_image{
+  width: 300px;
+  height: 245px;
+  margin: 0 auto;
+  overflow: hidden;
+
+}
+.recipe .recipe_box .recipe_card .recipe_image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: 0.3s;
+}
+
+.recipe .recipe_box .recipe_card .recipe_image:hover img{
+  transform: scale(1.1);
+
+
+}
+.recipe .recipe_box .recipe_card .small_card{
+  width: 45px;
+  height: 45px;
+  float: right;
+  position: relative;
+  top: -240px;
+  right: -8px;
+  opacity: 0;
+  border-radius: 7px;
+  transition: 0.3s;
+}
+
+.menu .menu_box .menu_card:hover .small_card{
+  position: relative;
+  top: -240px;
+  right: 20px;
+  opacity: 1;
+}
+
+.menu .menu_box .menu_card:hover .small_card i{
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 50px;
+  color: #000;
+  cursor: pointer;
+  text-shadow: 0 0 6px #000;
+  transition: 0.2s;
+}
+
+.recipe .recipe_box .recipe_card .small_card i:hover{
+  color: bisque;
+}
+.recipe .recipe_box .recipe_card .recipe_info h2{
+  width: 60%;
+  text-align: center;
+  margin: 10px auto 10px auto ;
+  font-size: 25px;
+  color:brown;
+}
+
+

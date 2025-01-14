@@ -74,3 +74,9 @@ button:hover{
     justify-content: center;
     margin-bottom: 30px;
 }
+
+.recipe h1 span{
+   color: brown;
+   margin-left: 15px;
+   font-family: mv boli;
+}

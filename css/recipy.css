@@ -98,6 +98,7 @@ button:hover{
   padding-top: 10px;
   margin-bottom: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin-left: 20px;
 }
 
 .recipe .recipe_box .recipe_card .recipe_image{
@@ -110,5 +111,7 @@ button:hover{
 .recipe .recipe_box .recipe_card .recipe_image img{
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  object-position: center;
 
 }

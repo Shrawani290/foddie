@@ -101,7 +101,7 @@ body{
  }
 
  .next{
-    background: aquamarine;
+    background:gainsboro;
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 20px;
@@ -113,7 +113,7 @@ body{
  }
 
  .A1{
-  
+  display: flex;
   margin-top: 50px;
  }
 
@@ -124,34 +124,47 @@ body{
     margin-left: 500px;
  }
 
- .A1 h3{
-    margin-left: 500px;
+ .A1 a h3{
+    
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     
  }
-
- .A1 P{
-    margin-left: 470px;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+ .A1 a {
+   display: flex;
  }
 
- .A1 #text{
-    margin-left: 200px;
-    margin-right: 200px;
-    width: 900px;
-    height: 130px;
+ .A1 a img{
+   width: 70px;
+   height:70px;
+   border-radius: 20px;
+   margin-left: 400px;
+   margin-top: 20px;
    
  }
 
- .A1 t{
+
+ .A1 #text{
+    margin-left: 60px;
+    width: 500px;
+    height: 220px;
+    
+    margin-top: 30px;
+   
+ }
+
+ .A1 #text t{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 20px;
-    text-align: center;
-    justify-content: center;
+    margin-left: 15px;
+   margin-top: 30x;
+ }
+
+ .A1 right video{
+   height: 400px;
+   width: 300px;
+   margin-top: 200px;
+   margin-left: 100px;
  }
 
  .A2{

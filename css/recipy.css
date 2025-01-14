@@ -94,4 +94,6 @@ button:hover{
 
 .recipe .recipe_box .recipe_card{
   width: 325px;
+  height: 480px;
+  padding-top: 10px;
 }

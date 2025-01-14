@@ -133,4 +133,5 @@ button:hover{
 .recipe .recipe_box .recipe_card .small_card{
   width: 45px;
   height: 45px;
+  float: right;
 }

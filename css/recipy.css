@@ -113,5 +113,11 @@ button:hover{
   height: 100%;
   object-fit: cover;
   object-position: center;
+  transition: 0.3s;
+}
+
+.recipe .recipe_box .recipe_card .recipe_image:hover img{
+  transform: scale(1.1);
+
 
 }

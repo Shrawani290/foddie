@@ -100,6 +100,11 @@ button:hover{
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
+.recipe .recipe_box .recipe_card .recipe_image{
+  width: 300px;
+
+}
 .recipe .recipe_box .recipe_card .recipe_image img{
   width: 150px;
+
 }

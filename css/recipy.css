@@ -118,6 +118,12 @@ main{
 .r1 left{
   margin-left: 20px;
 }
+.heading span{
+   font-family: mv boli;
+   margin-left: 500px;
+   color: rgb(124, 15, 15);
+
+}
 
 
 .recipes {

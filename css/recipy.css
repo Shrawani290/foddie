@@ -1,4 +1,4 @@
-/* styles.css */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,76 +6,7 @@ body {
   background-color: #f8f8f8;
   color: #333;
 }
-/* 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 20px;
-  background-color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 
-header .logo h1 {
-  font-size: 18px;
-}
-
-.header-stats {
-  display: flex;
-  gap: 15px;
-  font-size: 14px;
-  color: #666;
-}
-
-.premium-btn {
-  background-color: #ffcd3c;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-.premium-btn:hover {
-  background-color: #ffa800;
-} */
-
-/* .search-bar {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-}
-
-.search-bar input {
-  width: 80%;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 20px;
-} */
-/* 
-.categories {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin: 20px 0;
-}
-
-.categories button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 20px;
-  background-color: #f3f3f3;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-.categories .active {
-  background-color: #ffcd3c;
-}
-
-.categories button:hover {
-  background-color: #ddd;
-} */
 
 .recipes {
   display: grid;

@@ -2,13 +2,13 @@
 /*login page*/
 
 .log-bag{
-    background-color: black;
+    background-color: peachpuff;
     height: 900px;
     display: flex;
   }
   
   .bag-log{
-    background-color: rgb(115, 109, 109);
+    background-color: #140202);
     background-size: cover;
     height: 600px;
     width: 90%;
@@ -20,22 +20,24 @@
   }
   
   .log-img{
-    background-image: url(login-i.jpg);
+    background-image: url(./../images/coffee.jpeg); 
     background-size: cover;
     height: 600px;
     width: 600px;
+    border-radius: 10px;
   }
   
   .login{
-    color: aliceblue;
+    /* color: aliceblue; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2rem;
     margin-top: 75px;
     margin-left: 300px;
+
   }
   
   .name{
-    color: aliceblue;
+    /* color: aliceblue; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.6rem;
     margin-top:40PX;
@@ -52,7 +54,7 @@
   }
   
   .email{
-    color: aliceblue;
+    /* color: aliceblue; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.6rem;
     margin-top:40PX;
@@ -61,7 +63,7 @@
   
   
   .contact{
-    color: aliceblue;
+    /* color: aliceblue; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.6rem;
     margin-top:40PX;
@@ -70,7 +72,7 @@
   }
   
   .phone{
-    color: aliceblue;
+    /* color: aliceblue; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.6rem;
     margin-top:40PX;
@@ -107,57 +109,4 @@
     display: flex;
     /* justify-content: space-evenly; */
   }
-  
-  .f-info{
-    display: flex;
-    margin-top: 94px;
-    width: 80%;
-    justify-content: space-around;
-    margin-left: 65px;
-  }
-  
-  .f-head1{
-    color: aliceblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.3rem;
-    margin-left: 30px;
-  }
-  
-  .f-head2{
-    color: aliceblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 40px;
-    width: 40%;
-    font-size: 1.3rem;
-  }
-  
-  .f-head3{
-    color: aliceblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.3rem;
-  }
-  
-  .f1{
-    color: rgb(132, 136, 139);
-    font-size: 1rem;
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    margin-top: 20px;
-    width: 100%;
-  
-  }
-  
-  .f2{
-    color: rgb(132, 136, 139);
-    font-size: 1rem;
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    margin-top: 20px;
-    margin-left: 0px;
-    width: 50%;
-  
-  }
-  
-  
-  
-  
-  
   

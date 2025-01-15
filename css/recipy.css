@@ -101,35 +101,76 @@ button:hover{
 
 }
 
-.recipe .recipe_box .recipe_card{
-  width: 325px;
-  height: 480px;
-  padding-top: 10px;
-  margin-bottom: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  margin-left: 20px;
-}
-
+/* 
 .recipe .recipe_box .recipe_card .recipe_image{
   width: 300px;
   height: 245px;
   margin: 0 auto;
   overflow: hidden;
-
+ } */
+  .recipe_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px brown;
+    height: 500px;
+  }
+  .recipe_image img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
+    display: block;
 }
-.recipe .recipe_box .recipe_card .recipe_image img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  transition: 0.3s;
+
+.recipe_info {
+    padding: 15px;
+    text-align: center;
 }
 
+.recipe_info h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.recipe_info p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.recipe_info h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.recipe-icon {
+    margin-bottom: 10px;
+}
+
+.Recipe_btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.Recipe_btn:hover {
+    background-color: #0056b3;
+}
+
+/* 
 .recipe .recipe_box .recipe_card .recipe_image:hover img{
   transform: scale(1.1);
+ */
 
-
-}
+/* }
 .recipe .recipe_box .recipe_card .small_card{
   width: 45px;
   height: 45px;
@@ -140,36 +181,20 @@ button:hover{
   opacity: 0;
   border-radius: 7px;
   transition: 0.3s;
-}
+} */
+ /* .recipe_image img{
+  max: width 100%;
+  height: 3igh;
+  display: block;
 
-.menu .menu_box .menu_card:hover .small_card{
-  position: relative;
-  top: -240px;
-  right: 20px;
-  opacity: 1;
-}
+ }
 
-.menu .menu_box .menu_card:hover .small_card i{
-  font-size: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 50px;
-  color: #000;
-  cursor: pointer;
-  text-shadow: 0 0 6px #000;
-  transition: 0.2s;
-}
+ .recipe_info{
+padding :15px;
+text-align: center;
+ }
 
-.recipe .recipe_box .recipe_card .small_card i:hover{
-  color: bisque;
-}
-.recipe .recipe_box .recipe_card .recipe_info h2{
-  width: 60%;
-  text-align: center;
-  margin: 10px auto 10px auto ;
-  font-size: 25px;
-  color:brown;
-}
-
-
+ .reicpe_info height:2{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+ } */

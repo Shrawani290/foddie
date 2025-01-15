@@ -1,107 +1,107 @@
 body{
-    background-color: #ffc196;
-    margin: 0;
-    padding: 0;
-    
- }
+   background-color: #ffc196;
+   margin: 0;
+   padding: 0;
+   
+}
+
+main{
+  margin: 50px 20px 20px 50px;
+  background-color: #fff;
  
- main{
-   margin: 50px 20px 20px 50px;
-   background-color: #fff;
-   margin-bottom: 30px;
-   border-radius: 15px;
+  border-radius: 15px;
+  
+}
+
+
+.nav{
+    display: flex;
+    gap: 50px;
+   
+}
+
+ .nav h1{
+    margin-left: 70px;
+   color: brown;
+   margin-top: 72px;
+   font-family: Arial, Helvetica, sans-serif; 
    
  }
- 
- 
- .nav{
-     display: flex;
-     gap: 50px;
-    
- }
- 
-  .nav h1{
-     margin-left: 70px;
-    color: brown;
-    margin-top: 72px;
-    font-family: Arial, Helvetica, sans-serif; 
-  }
- 
-  .nav h1:hover{
-   border:1px solid black;
-   padding: 10px 10px 10px 10px;
-   border-radius: 5px;
-  }
- 
-  header{
-     display: flex;
-     gap: 70px;
-     margin-left: 150px;
-     margin-top: 60px;
-  }
-   
-  header p:hover{
-     border:1px solid black;
-     padding: 10px 10px 10px 10px;
-     border-radius: 5px;
-  }
-  .search-bar {
-     display: flex;
-     align-items: center;
-     border: 1px solid #ccc;
-     border-radius: 15px;
-     height: 27px;
-     width: 200px;
-     background-color: #f9f9f9;
-     margin-top: 70px;
-     margin-left: 100px;
- }
- 
- .search-bar input {
-     border: none;
-     outline: none;
-     padding: 5px;
-     font-size: 16px;
-     background-color: transparent;
-     flex-grow: 1;
- }
- 
- .search-bar i {
-     color: #555;
-     font-size: 18px;
-     cursor: pointer;
-   
- }
- 
- .search-bar input::placeholder {
-     color: #aaa;
-     font-size: 14px;
- }
- 
- .cart{
-     background-color: brown;
-     height: 50px;
-     width: 50px;
+/* 
+ .nav h1:hover{
+  border:1px solid black;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+ } */
+
+ header{
+    display: flex;
+    gap: 70px;
+    margin-left: 150px;
     margin-top: 60px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    margin-left: 20px;
  }
- .cart i{
-     width: 50px;
-     height: 20px;
-     padding-top: 15px;
-     padding-left: 17px;
-     color: #fff;
- }
- 
- .cart:hover{
-     background-color: black;
-    
- }
+  
+  /* header p:hover{
+    border:1px solid black;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px; 
+ }*/
+ .search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    height: 27px;
+    width: 200px;
+    background-color: #f9f9f9;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+    background-color: transparent;
+    flex-grow: 1;
+}
+
+.search-bar i {
+    color: #555;
+    font-size: 18px;
+    cursor: pointer;
+  
+}
+
+.search-bar input::placeholder {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.cart{
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+   margin-top: 60px;
+   margin-bottom: 15px;
+   border-radius: 5px;
+   margin-left: 20px;
+}
+.cart i{
+    width: 50px;
+    height: 20px;
+    padding-top: 15px;
+    padding-left: 17px;
+    color: #fff;
+}
+
+.cart:hover{
+    background-color: black;
+}
 
  .next{
-    background: aquamarine;
+    background:gainsboro;
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 20px;
@@ -113,7 +113,7 @@ body{
  }
 
  .A1{
-  
+  display: flex;
   margin-top: 50px;
  }
 
@@ -124,39 +124,60 @@ body{
     margin-left: 500px;
  }
 
- .A1 h3{
-    margin-left: 500px;
+ .A1 a h3{
+    
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     
  }
-
- .A1 P{
-    margin-left: 470px;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+ .A1 a {
+   display: flex;
  }
 
- .A1 #text{
-    margin-left: 200px;
-    margin-right: 200px;
-    width: 900px;
-    height: 130px;
+ .A1 a img{
+   width: 70px;
+   height:70px;
+   border-radius: 20px;
+   margin-left: 400px;
+   margin-top: 20px;
    
  }
 
- .A1 t{
+
+ .A1 #text{
+    margin-left: 100px;
+    width: 500px;
+    height: 300px;
+    
+    margin-top: 90px;
+   
+ }
+
+ .A1 #text t{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 20px;
-    text-align: center;
-    justify-content: center;
+    margin-left: 15px;
+   margin-top: 30x;
+ }
+
+ .A1 right video{
+   height: 400px;
+   width: 450px;
+   margin-top: 200px;
+   margin-left: 50px;
  }
 
  .A2{
     
-    margin-top: 50px;
+    margin-top: 0px;
+ }
+ .A2 a{
+   display: flex;
+ }
+ .A2 a img{
+   width: 100px;
+   height: 100px;
+   margin-top: 30px;
  }
  .A2 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -177,6 +198,13 @@ body{
     
     margin-top: 50px;
  }
+ .A3 a{
+   display: flex;
+ }
+ .A3 a video{
+   border-radius: 50%;
+   margin-top: 50px;
+ }
  .A3 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 55px;
@@ -196,10 +224,19 @@ body{
     margin-top: 50px;
  }
 
+ .A4 a{
+   display: flex;
+ }
+ .A4 a video{
+   border-radius: 50%;
+   margin-top: 20px;
+   width: 100px;
+ }
+
 .A4 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 52px;
-    margin-left: 480px;
+    margin-left: 440px;
     color: black;
  }
 
@@ -213,10 +250,17 @@ body{
     
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
  }
 
  .A5 {
     margin-top: 50px;
+ }
+ .A5 a{
+   display: flex;
+ }
+ .A5 a video{
+   border-radius: 50%;
  }
 
 .A5 h1{
@@ -234,6 +278,15 @@ body{
 
  .A6 {
     margin-top: 50px;
+ }
+
+ .A6 a{
+   display: flex;
+ }
+ .A6 a video{
+   width: 100px;
+   height: 100px;
+   margin-top: 20px;
  }
 
 .A6 h1{
@@ -255,7 +308,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
  }
 
- .A7 {
+ /* .A7 {
     margin-top: 50px;
  }
 
@@ -287,10 +340,18 @@ body{
     margin-left: 100px;
     font-size: 20px;
     font-family:cursive;
- }
+ } */
 
  .A8 {
     margin-top: 50px;
+ }
+ 
+ .A8 a{
+   display: flex;
+ }
+ .A8 a video{
+   border-radius: 50%;
+   margin-left: 10px;
  }
 
 .A8 h1{

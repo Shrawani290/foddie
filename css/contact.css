@@ -1,0 +1,112 @@
+
+/*login page*/
+
+.log-bag{
+    background-color: peachpuff;
+    height: 900px;
+    display: flex;
+  }
+  
+  .bag-log{
+    background-color: #140202);
+    background-size: cover;
+    height: 600px;
+    width: 90%;
+    margin-top: 205px;
+    margin-left: 80px;
+    border-radius: 35px;
+    display: flex;
+  
+  }
+  
+  .log-img{
+    background-image: url(./../images/coffee.jpeg); 
+    background-size: cover;
+    height: 600px;
+    width: 600px;
+    border-radius: 10px;
+  }
+  
+  .login{
+    /* color: aliceblue; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    margin-top: 75px;
+    margin-left: 300px;
+
+  }
+  
+  .name{
+    /* color: aliceblue; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    margin-top:40PX;
+    margin-left: 100px;
+  }
+  
+  
+  
+  .serch{
+    height: 25px;
+    width: 300px;
+    margin-left: 40px;
+    border: 1px solid black;
+  }
+  
+  .email{
+    /* color: aliceblue; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    margin-top:40PX;
+    margin-left: 100px;
+  }
+  
+  
+  .contact{
+    /* color: aliceblue; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    margin-top:40PX;
+    margin-left: 100px;
+  
+  }
+  
+  .phone{
+    /* color: aliceblue; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    margin-top:40PX;
+    margin-left: 140px;
+  
+  }
+  
+  .num{
+    height: 25px;
+    width: 300px;
+    margin-left: 40px;
+    border: 1px solid black;
+  }
+  
+  .submit{
+    color: black;
+    width: 90px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 300px;
+    border-radius: 8px;
+    /* background-color: #d79447; */
+  }
+
+  button:hover{
+    background-color: black;
+    color: #fff;
+  }
+  
+  .log-bag2{
+    background-color:rgb(48, 45, 45) ;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-evenly; */
+  }
+  

@@ -441,3 +441,21 @@ body{
      color: #555;
      border-top: 1px solid #ddd;
  }
+
+
+ .tips{
+    margin-left: 500px;
+ }
+
+ .tips button {
+    background-color: rgb(163, 43, 43);
+    padding: 10px;
+    color: #f9f9f9;
+    border-radius: 5px;
+    border: none;
+
+ }
+
+ .tips .btn1{
+    margin-left: 70px;
+ }

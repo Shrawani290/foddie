@@ -3,15 +3,13 @@ body{
     padding: 0;
    background-color: burlywood;
 }
-.cake{
+.dosa{
     display: flex;
 }
-.cake left img{
+.dosa left img{
     height: 500px;
     width: 450px;
     margin-left: 50px;
-
-
 
 }
 iframe{

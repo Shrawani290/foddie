@@ -1,0 +1,163 @@
+
+/*login page*/
+
+.log-bag{
+    background-color: black;
+    height: 900px;
+    display: flex;
+  }
+  
+  .bag-log{
+    background-color: rgb(115, 109, 109);
+    background-size: cover;
+    height: 600px;
+    width: 90%;
+    margin-top: 205px;
+    margin-left: 80px;
+    border-radius: 35px;
+    display: flex;
+  
+  }
+  
+  .log-img{
+    background-image: url(login-i.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 600px;
+  }
+  
+  .login{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    margin-top: 75px;
+    margin-left: 300px;
+  }
+  
+  .name{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    margin-top:40PX;
+    margin-left: 100px;
+  }
+  
+  
+  
+  .serch{
+    height: 25px;
+    width: 300px;
+    margin-left: 40px;
+    border: 1px solid black;
+  }
+  
+  .email{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    margin-top:40PX;
+    margin-left: 100px;
+  }
+  
+  
+  .contact{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    margin-top:40PX;
+    margin-left: 100px;
+  
+  }
+  
+  .phone{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    margin-top:40PX;
+    margin-left: 140px;
+  
+  }
+  
+  .num{
+    height: 25px;
+    width: 300px;
+    margin-left: 40px;
+    border: 1px solid black;
+  }
+  
+  .submit{
+    color: black;
+    width: 90px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 300px;
+    border-radius: 8px;
+    /* background-color: #d79447; */
+  }
+
+  button:hover{
+    background-color: black;
+    color: #fff;
+  }
+  
+  .log-bag2{
+    background-color:rgb(48, 45, 45) ;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-evenly; */
+  }
+  
+  .f-info{
+    display: flex;
+    margin-top: 94px;
+    width: 80%;
+    justify-content: space-around;
+    margin-left: 65px;
+  }
+  
+  .f-head1{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    margin-left: 30px;
+  }
+  
+  .f-head2{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+    width: 40%;
+    font-size: 1.3rem;
+  }
+  
+  .f-head3{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+  }
+  
+  .f1{
+    color: rgb(132, 136, 139);
+    font-size: 1rem;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    width: 100%;
+  
+  }
+  
+  .f2{
+    color: rgb(132, 136, 139);
+    font-size: 1rem;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 50%;
+  
+  }
+  
+  
+  
+  
+  
+  
